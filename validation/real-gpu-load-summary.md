@@ -33,8 +33,9 @@ cooled much faster. This response is consistent with coolant temperature from
 the connected `T_SENSOR` probe. The one-degree reading flickered around
 thresholds during idle and cooldown, matching the EC reading's 1 °C resolution;
 the underlying rise and return remained visible. All sampled channels were
-readable, and no `asus-ec-sensors`, ACPI, or hwmon kernel warnings appeared in
-the test window.
+readable. The only warning-priority kernel messages in the test window were
+unrelated firewall block notices; no sensor-driver, ACPI, hwmon, or GPU errors
+or warnings appeared.
 
 The data validates the board profile and register selection for this system;
 it is not a separate calibration measurement of absolute temperature.

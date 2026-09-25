@@ -87,8 +87,8 @@ sudo depmod -a
 sudo modprobe asus_ec_sensors
 ```
 
-The kernel change is submitted through the Linux hwmon mailing-list workflow;
-see the upstream patch file for the email-ready patch.
+The Linux hwmon contribution uses inline email. The email-ready patch is in
+`patches/` and is awaiting submission.
 
 ## License
 
